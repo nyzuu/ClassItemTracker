@@ -4,6 +4,9 @@
 
 Tracks new Class Items Acquired and the perks they rolled.
 
+![image](https://github.com/nyzuu/Destiny2API/assets/45524358/7b362ff8-1a64-4b98-b56c-ee31a3c28290)
+
+
 ## IMPORTANT
 
 This doesn't use bungie's OAuth2, so you need to enable `Show my non-equipped inventory` [https://www.bungie.net/7/en/User/Account/Privacy]
@@ -18,7 +21,7 @@ To get started, follow these steps:
 1. Sign up for a Bungie.net account and obtain an API key (https://www.bungie.net/en/Application , Create a Confidential Application with `Read your Destiny 2 information (Vault, Inventory, and Vendors), as well as Destiny 1 Vault and Inventory data.` Enabled).
 2. Clone this repository to your local machine.
 3. Install the required dependencies by running `npm install`.
-4. Set your API key and Discord Webhook URL in the configuration file (`.env`). If there is not a `.env` file, simply rename `example.env` to `.env`.
+4. Set your API key and Discord Webhook URL in `index.js` file.
 5. Run the application using `node index.js`.
 
 ## Usage
