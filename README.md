@@ -3,6 +3,7 @@
 ## Overview
 
 Tracks new Class Items Acquired and the perks they rolled.
+Feel free to read the comments of the index file to learn how this works (Caches perk icons, stitches them to gether and uploads to a temp file host for the discord embed)
 
 ![image](https://github.com/nyzuu/Destiny2API/assets/45524358/7b362ff8-1a64-4b98-b56c-ee31a3c28290)
 
