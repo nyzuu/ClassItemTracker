@@ -1,4 +1,4 @@
-# ClassItemAPI
+# Destiny2 Class Item Tracker
 
 ## Overview
 
