@@ -78,7 +78,8 @@ async function getInventory() {
 
         // Check if the inventory file exists
         if (!fs.existsSync(INVENTORY_FILE_PATH)) {
-            fs.writeFileSync(INVENTORY_FILE_PATH, JSON.stringify([], null, 2));
+            fs.writeFileSync(INVENTORY_FILE_PATH, JSON.stringify(CurrentInventory, null, 2));
+            return; // Doesn't need to check for new items on first run
         }
 
         // Filter new items from last check
