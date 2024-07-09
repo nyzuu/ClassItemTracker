@@ -5,8 +5,8 @@ const sharp    = require('sharp');
 const FormData = require('form-data');
 const { Webhook, MessageBuilder} = require('discord-webhook-node');
 
-const WEBHOOK_URL = process.env.WEBHOOK_URL; // Discord Webhook URL
-const API_KEY     = process.env.API_KEY;     // Bungie API Key
+const WEBHOOK_URL = ""; // Discord Webhook URL
+const API_KEY     = "";     // Bungie API Key
 
 const MEMBERSHIP_TYPE = "3"; // 1 = Xbox, 2 = PSN, 3 = Steam,
 const MEMBERSHIP_ID   = "1231241241231231"; // Bungie Acc Id
