@@ -9,7 +9,7 @@ const WEBHOOK_URL = process.env.WEBHOOK_URL; // Discord Webhook URL
 const API_KEY     = process.env.API_KEY;     // Bungie API Key
 
 const MEMBERSHIP_TYPE = "3"; // 1 = Xbox, 2 = PSN, 3 = Steam,
-const MEMBERSHIP_ID   = "4611686018532337727"; // Bungie Acc Id
+const MEMBERSHIP_ID   = "1231241241231231"; // Bungie Acc Id
 const REQUEST_INTERVAL = 25; // How many minutes between each inventory check
 
 
