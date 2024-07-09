@@ -1,0 +1,5 @@
+.env
+output.png
+inventory.json
+perk_images/
+node_modules/
