@@ -174,5 +174,7 @@ async function getInventory() {
     }
 }
 
+console.log('Running Class Item Tracker...');
+
 // Run every X minutes
 setInterval(getInventory, REQUEST_INTERVAL * 60 * 1000);
